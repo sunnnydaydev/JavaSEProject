@@ -45,13 +45,4 @@ class ModifyFileName {
 }
 
 
-fun main() {
-    // 简单测试
-    println(ModifyFileName.modify("C:\\Users\\Avazu Holding\\Desktop\\切图1\\","(1)", ""))
-}
 
-
-/**
- * 给定一个文件夹，吧其中图片（png图片）的名字的(1)去掉。
- * 栗子：hello(1).png -> hello.png
- * */
