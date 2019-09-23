@@ -62,13 +62,13 @@ public class test {
     public static void main(String[] args) {
         Animal animal = new Fish();
         animal.test();
-        animal.run(); // 这里输出啥？
-        animal.te(); // 这里输出啥？
-        animal.Bubble(); // 这里输出啥？
+        animal.run(); // 这里输出啥？为啥？
+        animal.te(); // 这里输出啥？为啥？
+        animal.Bubble(); // 这里输出啥？为啥？
         try {
             Class clazz = animal.getClass();
             Method method = clazz.getMethod("Bubble", null);
-            method.invoke(animal, null);   // 这里输出啥？
+            method.invoke(animal, null);   // 这里输出啥？为啥？
 
         } catch (Exception e) {
             e.printStackTrace();
