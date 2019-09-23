@@ -1,4 +1,4 @@
-package photo;
+package mul;
 
 /**
  * Created by sunnyDay on 2019/9/23 14:05

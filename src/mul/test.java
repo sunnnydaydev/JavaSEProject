@@ -1,4 +1,4 @@
-package photo;
+package mul;
 
 
 import java.lang.reflect.Method;
